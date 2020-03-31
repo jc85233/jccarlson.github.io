@@ -5,7 +5,6 @@
   background-position: center top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-  margin-top: 75px ;
 }
 .bdContact {
   background-image: url(./images/29527519_10215481199164276_192847831_o.jpg); /* The image used */
@@ -22,10 +21,19 @@
 
 }
 
-.card {
+.card-design-intro {
   margin: 25px;
   opacity: 0.85;
   background-color: #2c2a2a;
   margin-top: 75px ;
-  image-orientation: center;
+  padding: 30px;
+  margin-top: 100px;
+}
+
+.card-design {
+  margin: 25px;
+  opacity: 0.85;
+  background-color: #2c2a2a;
+  margin-top: 75px ;
+  padding: 20px;
 }
