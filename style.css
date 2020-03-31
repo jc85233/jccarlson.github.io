@@ -1,0 +1,28 @@
+.bd {
+  background-image: url(./images/JC-professional.jpg); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin-top: 70px ;
+}
+.bdContact {
+  background-image: url(./images/); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 100vh; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  margin-top: 70px ;
+}
+.fa {
+  font-size: 1.5rem;
+
+
+}
+
+.jumbotron {
+
+  opacity: 0.5;
+}
