@@ -16,6 +16,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+        <!-- <script defer src="node_modules/swup/dist/swup.min.js"></script>
+        <script defer src="script.js"></script> -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -43,8 +45,7 @@
                                 <a class="nav-link active text-light" href="portfolio.html">PORTFOLIO</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-light"
-                                    href="JC Carlson Resume.pdf"
+                                <a class="nav-link active text-light" href="JC Carlson Portfolio Resume.pdf"
                                     target="_blank">RESUME</a>
                             </li>
                         </ul>
@@ -53,39 +54,76 @@
             </nav>
         </div>
     </header>
-    <div class="bdContact">
-        <div class="container-fluid col-md-5 mb-5 col-sm-12 float-right">
-            <div class="card card-design">
-                <h1 class="display-4 text-nowrap" style="color: aliceblue;">Contact</h1>
-                <form>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput" style="color: aliceblue;">Name</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+    <main id="swup" class="transition-fade">
+        <div class="bdContact">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-4 col-md-5 col-sm-12">
+                        <div class="card card-design ">
+                            <h1 class="display-4 text-wrap" style="color: aliceblue;">Stay Connected</h1>
+                            <div class="row">
+                                <div class="col-1">
+                                    <p class="textintobox text-nowrap fa fa-google"> :</p>
+                                </div>
+                                <div class="col-11">
+                                    <p class="textintobox">jim.carlson827@gmail.com</p>
+                                </div>
+                                <div class="col-1">
+                                    <p class="textintobox text-nowrap fa fa-phone"> :</p>
+                                </div>
+                                <div class="col-11">
+                                    <p class="textintobox">(480-215-4083)</p>
+                                </div>
+                                <div class="col-1">
+                                    <p class="textintobox text-nowrap fa fa-linkedin"> :</p>
+                                </div>
+                                <div class="col-11">
+                                    <p class="textintobox">JC Carlson</p>
+                                </div>
+                                <div class="col-1">
+                                    <p class="textintobox text-nowrap fa fa-github"> :</p>
+                                </div>
+                                <div class="col-11">
+                                    <p class="textintobox">jccarlson27</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlInput1" style="color: aliceblue;">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
-                    </div>
+                    <div class="col-lg-4 col-md-5 offset-lg-4 offset-md-2 col-sm-12">
+                        <div class="card card-design">
+                            <h1 class="display-4 text-nowrap" style="color: aliceblue;">Contact</h1>
+                            <form>
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput" style="color: aliceblue;">Name</label>
+                                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlInput1" style="color: aliceblue;">Email
+                                        address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
 
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1" style="color: aliceblue;">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1" style="color: aliceblue;">Message</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+                                </div>
+                                <div class="text-right">
+                                    <button id="generate" type="button" class="btn btn-primary">Submit</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
-                    <div class="text-right">
-                        <button id="generate" type="button" class="btn btn-primary">Submit</button>
-                    </div>
-                </form>
+                </div>
             </div>
         </div>
-
-
+    </main>
+    <div class="footer bg-light p-1 text-center">
+        <a href="https://www.facebook.com/jc.carlson.90" target="_blank" class="fa fa-facebook p-2"></a>
+        <a href="https://www.linkedin.com/in/jc-carlson-38a401a3" target="_blank" class="fa fa-linkedin p-2"></a>
+        <a href="https://github.com/jccarlson27" target="_blank" class="fa fa-github p-2"></a>
+        <p class="text-center"><small>&copy; 2020 JC CARLSON</small></p>
     </div>
-    <footer>
-        <div class="footer sticky-bottom navbar-light bg-light p-1 text-center"><a
-                href="https://www.facebook.com/jc.carlson.90" target="_blank" class="fa fa-facebook p-2"></a>
-            <a href="https://www.linkedin.com/in/jc-carlson-38a401a3" target="_blank" class="fa fa-linkedin p-2"></a>
-            <a href="https://github.com/jccarlson27" target="_blank" class="fa fa-github p-2"></a>
-            <p class="text-center"><small>&copy; 2020 JC CARLSON</small></p>
-        </div>
-    </footer>
+</body>
+
+</html>
