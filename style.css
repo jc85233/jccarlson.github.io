@@ -72,7 +72,7 @@ i {
 
 .transition-fade {
   opacity: 1;
-  transition: 1500ms;
+  transition: 1000ms;
   transform: translateY(0);
 }
 
